@@ -1,6 +1,6 @@
 "use client";
 import { Mail, Phone } from "lucide-react";
-import { FaFacebook, FaInstagram } from "react-icons/fa6";
+import { FaFacebook } from "react-icons/fa6";
 
 const siteConfig = {
   url: process.env.NEXT_PUBLIC_SITE_URL,
