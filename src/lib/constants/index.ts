@@ -1,4 +1,4 @@
-import { Facebook, Mail, Phone } from "lucide-react";
+import { Mail, Phone } from "lucide-react";
 import { siteConfig } from "../site-config";
 import {
   T_NavLink,
@@ -13,7 +13,7 @@ import {
   T_Manager,
   T_Technician,
 } from "../types";
-import { FaWhatsapp } from "react-icons/fa6";
+import { FaWhatsapp, FaFacebook } from "react-icons/fa6";
 
 const navLinks: T_NavLink[] = [
   {
@@ -63,7 +63,7 @@ const socials: T_Social[] = [
   },
   {
     text: "Kellian Enterprises",
-    icon: Facebook,
+    icon: FaFacebook,
     socialInfo: "https://www.facebook.com/profile.php?id=100094674517656",
     variant: "link",
   },

@@ -1,18 +1,21 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { siteConfig } from "../lib/site-config";
+
 import { Fira_Sans } from "next/font/google";
 import { Toaster } from "../components/ui/toaster";
 import { ThemeProvider } from "../components/core/utils/ThemeProvider";
 import { ModalProvider } from "../hooks/use-modal";
-import { Footer, Header } from "../components";
+import Footer from "../components/core/Footer";
+import Header from "../components/core/Header";
 
 const firaSans = Fira_Sans({
   weight: ["200", "400", "700"],
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = siteConfig.nextMetada;
+import { metadata } from "../lib/metadata";
+
+export { metadata };
 
 const RootLayout = ({
   children,

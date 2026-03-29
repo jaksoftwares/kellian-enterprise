@@ -1,4 +1,6 @@
-import { Facebook, Instagram, Mail, Phone } from "lucide-react";
+"use client";
+import { Mail, Phone } from "lucide-react";
+import { FaFacebook, FaInstagram } from "react-icons/fa6";
 
 const siteConfig = {
   url: process.env.NEXT_PUBLIC_SITE_URL,
@@ -202,7 +204,7 @@ const siteConfig = {
   socialLinks: [
     {
       platform: "Facebook",
-      iconCompoment: Facebook,
+      iconCompoment: FaFacebook,
       link: "https://www.facebook.com/profile.php?id=100094674517656",
     },
     {
