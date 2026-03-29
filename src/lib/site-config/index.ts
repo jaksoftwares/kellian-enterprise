@@ -1,4 +1,3 @@
-"use client";
 import { Mail, Phone } from "lucide-react";
 import { FaFacebook } from "react-icons/fa6";
 
